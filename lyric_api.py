@@ -16,7 +16,7 @@ def ping_musix(artist_name,track_name):
     artist_name = artist_name.title()
     track_search_parameter = "&q_track="
     track_name=track_name.title()
-    api_key = "&apikey=9bca67959d247006cf9e67a435f59c1b"
+    api_key = "{your api key}"
     api_call = base_url + lyrics_matcher + format_url + artist_search_parameter + artist_name + track_search_parameter + track_name + api_key
     request = requests.get(api_call)
     
