@@ -10,4 +10,4 @@ A query can be issued as follows
 !lyrics thin lizzy | whiskey in the jar
 
 If no lyrics are found the bot will let you know it was unsuccessful and prompt you to 
-check your seplling and try again. 
+check your spelling and try again. 
